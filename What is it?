@@ -1,0 +1,7 @@
+What is a clock cycle?
+give me a rigorous definition
+A clock cycle is the time interval between two consecutive pulses of a CPU's internal clock. It is the fundamental unit of time 
+that synchronizes all of the processor's operations. During each clock cycle, the CPU performs a specific, atomic operation, 
+such as fetching an instruction, decoding it, or executing a single step of a calculation. Most simple instructions can be 
+completed in a single clock cycle, which is why bitwise operations are so fast. More complex instructions, however, may require multiple clock cycles.
+
