@@ -43,4 +43,22 @@ ANS>>
 18>>What is fragmentation and how to manage it?
 19>>What is slab allocator and what is buddy allocator?
 20>>What is free list and what is free block?
-21>>
+21>>Concurrency vs parallelism 
+Race condition
+Deadlock
+Time sharing
+Switching context
+Policy vs Mechanism
+Process list and process control block 
+API, System API
+System call
+fork, exec, wait
+Zombie process, reap
+
+
+CPU Scheduling, Turnaround time
+Raising an interrupt
+STCF vs RR
+Response time
+MLFQ
+Starvation, Gaming the scheduler, priority boost
