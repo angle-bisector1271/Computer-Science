@@ -1,0 +1,46 @@
+1>>What is an operating system?
+ANS>>A software to manage a computer's resources.
+2>>What specifically does it manage?
+ANS>>CPU,memory,file system,I/O devices
+3>>What are the 2 fundamental models of computation?
+ANS>>Von Neumann model (Instructions and data are stored on the same memory, instructions are executed sequentially)
+4>>What are different kinds of operating systems?
+ANS>>Unix, non-unix, embedded system, etc
+5>>What is a kernel?
+ANS>>Part of the OS that interacts directly with the hardware.
+6>>What is a program and what is a process?
+ANS>>A program is a set of instructions and a proces is a program that is currently being executed.
+7>>What is the machine state of a process?
+ANS>>The complete set of information needed by the CPU for execution of a program at any point of time.
+8>>What is address space?
+ANS>>The entire range of memory addresses available for use by a program. Or the virtual map of memory.
+9>>What is the difference between stack and heap?
+ANS>> Stack stores function calls and local variables, heap stores dynamically allocated memory.
+ANS>> Stack has automatic memory allocation, heap has dynamic memory allocation, which is programmer-controlled.
+ANS>> Stack is automatically freed after the process ends, but heap has to be freed manually.
+10>>What is fragmentation and what is memory leak?
+ANS>>Fragmentation occurs when memory allocation for a process is not possible despite total memory availability being sufficient,
+ANS>>because of memory previously having been allocated in non-contiguous chunks, which leads to unavailability of a new
+ANS>>contiguous chunk of memory for allocation to a process.
+ANS>>A memory leak happens when a programmer allocates memory dynamically but never frees it.
+11>What happens when a CPU starts executing a process?
+ANS>>First, memory is allocated, then the instruction and initialized variables are loaded. Then basic files like cin,cout are opened.
+ANS>>Then CPU registers are initialized.
+12>>What are different states of a process?
+ANS>>Running,Ready,Blocked,New,Dead. Blocked process is a currently suspended process that is waiting for some signal to get ready.
+ANS>>A ready process is waiting for it to get scheduled when a CPU becomes free.
+ANS>>When a ready process gets scheduled it becomes a running process.
+13>>What is Page table and MMU?
+ANS>>
+14>>What is the difference between new and malloc?
+ANS>>
+15>>What is a segmentation fault?
+ANS>>Illegal Memory Access attempt
+16>>What is the difference between a system call and a library call?
+ANS>>>
+17>>In the segmentationn approach, what does OS do during conntext switch?
+ANS>>
+18>>What is fragmentation and how to manage it?
+19>>What is slab allocator and what is buddy allocator?
+20>>What is free list and what is free block?
+21>>
