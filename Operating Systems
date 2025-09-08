@@ -1,7 +1,9 @@
-1>>What is an operating system?
+What is an operating system?
 ANS>>A software to manage a computer's resources.
-2>>What specifically does it manage?
+What specifically does it manage?
 ANS>>CPU,memory,file system,I/O devices
+What does it mean for a CPU to FETCH an instruction from memory and what does it mean to decode that instruction?
+What is an instruction set architecture?
 3>>What are the 2 fundamental models of computation?
 ANS>>Von Neumann model (Instructions and data are stored on the same memory, instructions are executed sequentially)
 4>>What are different kinds of operating systems?
@@ -27,9 +29,18 @@ ANS>>A memory leak happens when a programmer allocates memory dynamically but ne
 ANS>>First, memory is allocated, then the instruction and initialized variables are loaded. Then basic files like cin,cout are opened.
 ANS>>Then CPU registers are initialized.
 12>>What are different states of a process?
-ANS>>Running,Ready,Blocked,New,Dead. Blocked process is a currently suspended process that is waiting for some signal to get ready.
+ANS>>Running,Ready,Blocked,New,Dead. Blocked process is a currently suspended process that is waiting for some signal or interrupt to get ready.
 ANS>>A ready process is waiting for it to get scheduled when a CPU becomes free.
 ANS>>When a ready process gets scheduled it becomes a running process.
+What is an interrupt?
+ANS>>A signal from hardware or software to CPU that indicates the occurance of an event that needs immediate attention.
+ANS>>It causes the CPU to temporarily halt doing what it is doing and attend to the event using its interrupt handler.
+What is the difference bbetween a policy and a mechanism?
+What are the data structures that an OS needs to track processes?
+ANS>>Process List and Process Control Block
+What is an API?
+What is a system call? What is a system API?
+In UNIX what are the 3 main process related system calls and what does each one of them do?
 13>>What is Page table and MMU?
 ANS>>
 14>>What is the difference between new and malloc?
@@ -62,3 +73,5 @@ STCF vs RR
 Response time
 MLFQ
 Starvation, Gaming the scheduler, priority boost
+
+
