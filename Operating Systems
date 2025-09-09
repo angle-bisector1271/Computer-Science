@@ -41,6 +41,16 @@ ANS>>Process List and Process Control Block
 What is an API?
 What is a system call? What is a system API?
 In UNIX what are the 3 main process related system calls and what does each one of them do?
+What does Fork return?
+What does it mean to reap zombies?
+Who is the daddy of all processes?
+ANS>>init process.
+What is a file descriptor and what is piping?
+What is a function call?
+What is a trap?
+Whta is a context swiitch?
+What is a trap table?
+
 13>>What is Page table and MMU?
 ANS>>
 14>>What is the difference between new and malloc?
