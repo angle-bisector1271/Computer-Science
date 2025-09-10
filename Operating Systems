@@ -63,6 +63,17 @@ What does it mean to virtualise memory?
 What is a load instruction and what is a store instruction?
 How are virtual addresses translated to physical addresses?
 What is special about address space of the operating system?
+What does malloc do? What does free do? What is a dangling pointer?
+What is memory leak?
+What is buffer overflow?
+What is the difference between user space and kernel space?
+What is base and bound method of memory alloccation?
+Where exactly does malloc allocate memory from?
+What is a free list?
+What is the difference between user mode and kernel mode?
+What is the difference between internal and external fragmentation?
+What is a segment?
+What are the 2 registers used for base and bounds?
 13>>What is Page table and MMU?
 ANS>>
 14>>What is the difference between new and malloc?
