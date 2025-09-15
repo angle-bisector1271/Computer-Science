@@ -83,7 +83,13 @@ What is the major problem with large page tables?
 What is the main advantage with having large page tables?
 What is apatial locality and temporal locality?
 What is the difference between a trap and an exception?
-What is translaation look-aside buffer?
+What is translation look-aside buffer?
+When you use segmentation along with paging, what does any virtual address look like?
+What is a multi level page table?
+What is page directory?
+How is virtual address made up or multi level paging?
+How to extract page directory index from page directory address?
+What is an inverted page table?
 13>>What is Page table and MMU?
 ANS>>
 14>>What is the difference between new and malloc?
