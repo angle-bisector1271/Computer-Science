@@ -74,6 +74,16 @@ What is the difference between user mode and kernel mode?
 What is the difference between internal and external fragmentation?
 What is a segment?
 What are the 2 registers used for base and bounds?
+What is paging?
+What is a page frame and a page table?
+What are the 2 components of virtual address in paging?
+What is the difference between page size of virtual page and physical frame?
+What are these 5 terms? Valid,protection,present,dirty,reference bit?
+What is the major problem with large page tables?
+What is the main advantage with having large page tables?
+What is apatial locality and temporal locality?
+What is the difference between a trap and an exception?
+What is translaation look-aside buffer?
 13>>What is Page table and MMU?
 ANS>>
 14>>What is the difference between new and malloc?
